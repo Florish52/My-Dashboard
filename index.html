@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.5.1/tailwind.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="overflow-y-scroll relative">
+    <div class="fixed h-full fixed w-screen bg-indigo-900 absolute z-20 top-10 invisible md:hidden" id="overlay"></div>
+
+        <!-- Beginning of SideNav -->
+        <nav class="invisible bg-indigo-900 fixed left-0 top-0 w-64 h-screen p-4 m-0 text-white font-medium flex-1 overflow-y-scroll z-20 lg:visible lg:block" id="sideNav">
+            <h1 class="font-sans text-xl text-center font-bold">FLORISH</h1>
+            <h2 class="font-sans text-xl text-center font-bold">MENU</h2>
+            <ul class="text-sky-700 flex-initial justify-between m- ">
+    
+                    <li class="my-3 opacity-50 hover:opacity-100 caret-parent">
+                        <a href="#">
+                            <i class='bx bx-user-circle'></i>
+                            <span>Dashboard</span></a>
+                            <i class='bx bx-caret-down'></i>
+                    </li>
+               
+                            <ul class="font-thin hidden hidden hidden hideul   ">
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                        Analytic
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                        CRM
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                        Ecommerce
+                                    </a>
+                                </li>
+                                
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                        Crypto
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Projects
+                                    </a>
+                                </li>
+                                    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                        NFT
+                                    </a>
+                                </li>
+                            </ul>
+                 
+                            
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bx-grid-alt'></i>
+                        <span>App</span>
+                    </a>
+                    <i class='bx bx-caret-down'></i>
+                </li>
+                                <ul class="font-thin hidden hidden hidden hideul   ">
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                            Calendar                    
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Chat
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Email
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Ecommerce
+                                        </a>
+                                    </li>
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Projects
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Tasks
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            CRM
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Crypto
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Invoices
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Support Tickets
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            NFT Marketplace
+                                        </a>
+                                    </li>
+                            </ul>
+    
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#"><i class='bx bx-layout'></i>
+                    <span>Layout</span></a>
+                    <i class='bx bx-caret-down'></i>
+                </li>
+                                        <ul class="font-thin hidden hidden hidden hideul   ">
+                                            <li class="my-3 opacity-50 hover:opacity-100">
+                                                <a href="#">
+                                                    <i class='bx bx-right-arrow-alt'></i>
+                                                    Horizontal
+                                                </a>
+                                            </li>
+    
+                                            <li class="my-3 opacity-50 hover:opacity-100">
+                                                <a href="#">
+                                                    <i class='bx bx-right-arrow-alt'></i>
+                                                    Detached
+                                                </a>
+                                            </li>
+    
+                                            <li class="my-3 opacity-50 hover:opacity-100">
+                                                <a href="#">
+                                                    <i class='bx bx-right-arrow-alt'></i>
+                                                    Two Column
+                                                </a>
+                                            </li>
+    
+                                            <li class="my-3 opacity-50 hover:opacity-100">
+                                                <a href="#">
+                                                    <i class='bx bx-right-arrow-alt'></i>
+                                                    Hovered
+                                                </a>
+                                            </li>
+                                    </ul>
+    
+                                    <br />
+                        <h6 class="opacity-50">PAGES</h6>
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-user'></i>
+                                <span>Authentication</span>
+                            </a>
+                                <i class='bx bx-caret-down'></i>
+                        </li>
+                                <ul class="font-thin hidden hidden hideul  ">
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Sign In
+                                            </a>
+                                        </li>
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Sign Up
+                                            </a>
+                                        </li>
+    
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Password Reset
+                                            </a>
+                                        </li>
+    
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Password Create
+                                            </a>
+                                        </li>
+    
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Lock Screen
+                                            </a>
+                                        </li>
+    
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Logout
+                                            </a>
+                                        </li>
+    
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Success Message
+                                            </a>
+                                        </li>
+    
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Two Step Verification
+                                            </a>
+                                        </li>
+    
+                                        <li class="my-3 opacity-50 hover:opacity-100">
+                                            <a href="#">
+                                                <i class='bx bx-right-arrow-alt'></i>
+                                                Errors
+                                            </a>
+                                        </li>
+                             </ul>
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#"><i class='bx bx-food-menu'></i>
+                        <span>Pages</span></a>
+                        <i class='bx bx-caret-down'></i>
+                </li>
+                                <ul class="font-thin hidden hidden hideul  ">
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Starter
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Profile
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Team
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Timeline
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            FAQs
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Pricing
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Gallery
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Coming Soon
+                                        </a>
+                                    </li>
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Sitemap
+                                        </a>
+                                    </li>
+    
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Search Results
+                                        </a>
+                                    </li>
+                                </ul>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bxs-plane-land'></i>
+                            <span>Landing</span>
+                        </a>
+                            <i class='bx bx-caret-down'></i>
+                    </li>
+                                <ul class="font-thin hidden hidden hideul  ">
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            One Page
+                                        </a>
+                                    </li>
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            NFT Landing
+                                        </a>
+                                    </li>
+                                </ul>
+    
+                                <br />
+    
+                <h6 class="opacity-50">Components</h6>
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#"><i class='bx bxs-buildings'></i>
+                    <span>Base UI</span></a>
+                    <i class='bx bx-caret-down'></i>
+                </li>
+    
+         
+                            <ul class="font-thin hidden hidden hideul  ">
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Alerts
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Badges
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Buttons
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Colors
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Cards
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Carousel
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Dropdowns
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Grid
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Images
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Tabs 
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Accordion & Collapse 
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Modals
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Offcanvas
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Placeholders
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Progress
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Notifications
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Media object
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Embed Video
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Typography
+                                    </a>
+                                </li> 
+                        
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        List
+                                    </a>
+                                </li> 
+                        
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        General
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Ribbons
+                                    </a>
+                                </li> 
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Utilities
+                                    </a>
+                                </li> 
+                            </ul>
+                
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bx-data'></i>
+                        <span>Advance Ui</span>
+                    </a>
+                        <i class='bx bx-caret-down'></i>
+                </li>
+    
+                            <ul class="font-thin hidden hidden hideul  ">
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Sweet Alerts
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Nestable List
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Scrollbar
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Animation
+                                        </a>
+                                    </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Tour
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Swiper Slider
+                                    </a>
+                                </li>
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Ratings
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Highlight
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        ScrollSpy
+                                    </a>
+                                </li>
+                            </ul>
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bxs-widget'></i>
+                        <span>Widget </span>
+                    </a>
+                    <i class='bx bx-caret-down'></i>
+                </li>
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bxs-detail'></i>
+                        <span>Forms </span>
+                    </a>
+                    <i class='bx bx-caret-down'></i>
+                </li>
+    
+                    <ul class="font-thin hidden hidden hideul  ">
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Basic Elements
+                            </a>
+                        </li>
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Form Select
+                            </a>
+                        </li>
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Checkboxs & Radios
+                            </a>
+                        </li>
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Pickers
+                            </a>
+                        </li>
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Input Masks
+                            </a>
+                        </li> 
+                        
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Advance
+                            </a>
+                        </li> 
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Range Slider
+                            </a>
+                        </li> 
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Validation
+                            </a>
+                        </li> 
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Wizard
+                            </a>
+                        </li> 
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                File Uploads
+                            </a>
+                        </li> 
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Form Layouts
+                            </a>
+                        </li> 
+    
+                        <li class="my-3 opacity-50 hover:opacity-100">
+                            <a href="#">
+                                <i class='bx bx-right-arrow-alt'></i>
+                                Select2
+                            </a>
+                        </li> 
+                </ul>
+    
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bxs-detail'></i>
+                        <span>Tables </span>
+                    </a>
+                        <i class='bx bx-caret-down'></i>
+                </li>
+    
+                        <ul class="font-thin hidden hidden hideul  ">
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Basic Tables
+                                    </a>
+                                </li
+                                >
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Grid Js
+                                    </a>
+                                </li>
+    
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        List Js
+                                    </a>
+                                </li>
+                                <li class="my-3 opacity-50 hover:opacity-100">
+                                    <a href="#">
+                                        <i class='bx bx-right-arrow-alt'></i>
+                                        Datatables
+                                    </a>
+                                </li>
+                            </ul>
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bxs-detail'></i>
+                        <span>Chart </span>
+                    </a>
+                        <i class='bx bx-caret-down'></i>
+                </li>
+                                <ul class="font-thin hidden hidden hideul  ">
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Apexcharts
+                                        </a>
+                                    </li>
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Chartjs
+                                        </a>
+                                    </li>
+                                    <li class="my-3 opacity-50 hover:opacity-100">
+                                        <a href="#">
+                                            <i class='bx bx-right-arrow-alt'></i>
+                                            Echarts
+                                        </a>
+                                    </li>
+                                </ul>
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bx-compass' ></i>
+                        <span>Icon</span>
+                    </a>
+                        <i class='bx bx-caret-down'></i>
+                </li>
+    
+                <ul class="font-thin hidden hidden hideul  ">
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Remix
+                        </a>
+                    </li>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Boxicons
+                        </a>
+                    </li>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Material Design
+                        </a>
+                    </li>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Line Awesome
+                        </a>
+                    </li>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Feather
+                        </a>
+                    </li>
+                </ul>
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bxs-map'></i>
+                        <span>Map</span>
+                    </a>
+                        <i class='bx bx-caret-down'></i>
+                </li>
+    
+                <ul class="font-thin hidden hidden hideul  ">
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Google
+                        </a>
+                    </li>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Vector
+                        </a>
+                    </li>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Leaflet
+                        </a>
+                    </li>
+                </ul>
+    
+    
+    
+                <li class="my-3 opacity-50 hover:opacity-100">
+                    <a href="#">
+                        <i class='bx bx-share-alt'></i>
+                        <span>Multilevel </span>
+                    </a>
+                        <i class='bx bx-caret-down'></i>
+                </li>
+    
+                <ul class="font-thin hidden hidden hideul  ">
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Level 1.1
+                        </a>
+                    </li>
+    
+                    <li class="my-3 opacity-50 hover:opacity-100">
+                        <a href="#">
+                            <i class='bx bx-right-arrow-alt'></i>
+                            Level 1.2
+                        </a>
+                    </li>
+                </ul>
+    
+            </ul>
+            
+            
+        </nav>
+        <!-- End of SideNav -->
+
+        <!--Horizontal Nav Bar begins here-->
+<div class="giant body lg:ml-64 p-0 lg:p-0.5 mt-20" id="giantDiv">
+        <div class="sticky-nav fixed left-8 bg-white h-20 flex justify-between items-end m-0 shadow md:flex md:justify-between md:items-center box-border top-0 right-0 w-full z-0 lg:pl-64">
+            <div class="search p-4 justify-between items-center" >
+                <button class="fixed bg-indigo-900 left-0 top-0 mt-3 lg:hidden" id="sidnav-btn">
+                    <i class='bx bx-menu-alt-left absolute  md:left-64 bg-indigo-900 left-0  text-white text-3xl z-50'></i>
+                </button>
+
+                <span id="search" class="invisible ml-10  absolute z-0 md:visible left-8  md:ml-0 md:top-0   ">
+                    <i class='bx bx-search-alt-2 ml-64 md:mt-3 left- p-1 rounded-full text-2xl text-white bg-indigo-900 top-3 absolute z-0 md:invisible'></i>
+                    <input type="text"  class=" active:bg-green-600 p-1 bg-gray-200 md:pl-8 rounded-lg absolute ml-16 top-8 h-10 md:visible md:ml-3 md:mt-3 md:none" placeholder="Search...">
+                </span>
+            </div>
+ 
+            <div class="flex justify-between m-4 items-center">
+                <div class="icons-of m-0 flex justify md:mx-3 md:text-3xl-between top-0 items-center">
+                    
+                    <i class='text-indigo-900 bx bx-search-alt-2 text-1xl mx-1 1ar-icons md:mx-3 md:text-3xl bg-gray-200 rounded-full my-3 my-0 p-2 lg:invisible sticky-icons' id="searchIcon"></i><br />
+                    <div class="fixedDiv"></div>
+                   
+                    <i class='text-indigo-900 text-1xl mx-1 1ar-icons md:mx-3 md:text-3xl bg-gray-200 rounded-full my-3 my-0 p-2 md:p-1 md:m-1 bx bxs-flag-checkered sticky-icons'></i>
+                    <div class="fixedDiv"></div>
+
+                    <!--Grid icon for web apps-->
+                    <i class='text-indigo-900 text-1xl mx-1 1ar-icons md:mx-3 md:text-3xl bg-gray-200 rounded-full my-3 my-0 p-2 md:p-1 md:m-1 bx bx-grid-alt sticky-icons'></i>
+                    <!-- Corresponding Handing Div -->
+                        <div class="w-full right-0 md:w-1/2 max-h-80 fixed h-auto p-3 lg:ml-32 bg-blue-100 rounded-lg lg:w-auto fixedDiv right-20 mr-20 pr-6 hidden">
+                            <div class="flex justify-between m-3 w-auto">
+                                <h3 class="w-auto h-3 mr-6 font-bold text-1xl">Web Apps</h3>
+                                <span class="bg-indigo-200 text-indigo-900 w-auto h-6 px-3 ml-6 rounded-lg">View all Apps</span>
+                            </div>
+                            <div class="flex flex-wrap justify-between m-3 w-full">
+                                <div class="m-6">
+                                    <span>
+                                        <i class='bx bxl-github text-5xl text-indigo-900'></i>
+                                    </span><br />
+
+                                    <span>
+                                        GitHub
+                                    </span>
+                                </div>
+                                
+                                <div class="m-6">
+                                    <span>
+                                        <i class='bx bx-box text-5xl text-indigo-900'></i>
+                                    </span><br />
+                                    <span>
+                                        Bitbucket
+                                    </span>
+                                </div>
+                                <div class="m-6">
+                                    <span> 
+                                        <i class='bx bxs-tennis-ball text-5xl text-indigo-900'></i>
+                                    </span><br />
+
+                                    <span>
+                                        Dribble
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap justify-between m-3 w-full">
+                                
+                                <div class="m-6">
+                                    <span>
+                                        <i class='bx bx-diamond text-5xl text-indigo-900'></i>
+                                    </span><br />
+                                    <span>
+                                        DropBox
+                                    </span>
+                                </div>
+                                <div class="m-6">
+                                    <span>
+                                        <i class='bx bxl-mailchimp text-5xl text-indigo-900' ></i>
+                                    </span><br />
+                                    <span>
+                                        MailChip
+                                    </span>
+                                </div>
+                                <div class="m-6">
+                                    <span>
+                                        <i class='bx bxl-slack text-5xl text-indigo-900' ></i>
+                                    </span><br />
+                                    <span>
+                                        Slack
+                                    </span>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    <!-- Ends here -->
+                    
+                    <!-- Shopping Cart icon-->
+                    <i class='text-indigo-900 text-1xl mx-1 1ar-icons md:mx-3 md:text-3xl bg-gray-200 rounded-full my-3 my-0 p-2 md:p-1 md:m-1 bx bx-briefcase-alt-2 sticky-icons relative' ><span class="rounded-full top-0 right-0 absolute bg-indigo-400 p-1 font-bold text-white childNode">5</span></i>
+                    <!-- Corresponding div -->
+                    <div class="w-full right-0 md:w-1/2 max-h-80 top-20 fixed h-auto p-3 lg:ml-32 bg-blue-100 rounded-lg lg:w-auto fixedDiv right-20 mr-6 pr-6 hidden">
+                        <div class="flex justify-between m-3 w-auto">
+                            <h3 class="w-auto h-3 mr-6 font-bold text-1xl">My Cart</h3>
+                            <span class="bg-indigo-200 text-indigo-900 w-auto h-6 px-3 ml-6 rounded-lg">5 items</span>
+                        </div>
+
+                        <div class="flex flex-wrap justify-between m-3 w-full">
+                            <ul class="w-full overflow-y-scroll h-64">
+
+                                <li class="flex justify-between items-center p-1">
+                                    <div class="flex justify-between items-center mr-6">
+                                        <i class='bx bxs-t-shirt text-4xl p-2 rounded-full bg-indigo-200 text-indigo-900 m-1' ></i>
+                                        <span><strong>Branded T-Shirts</strong><p>Quantity: 10x$32</p></span>
+                                    </div>
+
+                                    <div class="flex justify-between items-center ml-6">
+                                        <span class="px-1"><strong>$320</strong></span>
+                                        <span class="delete">X</span>
+                                    </div>
+                                </li>
+
+                                <li class="flex justify-between items-center p-1">
+                                    <div class="flex justify-between items-center mr-6">
+                                        <i class='bx bx-chair text-4xl p-2 rounded-full bg-indigo-200 text-indigo-900 m-1' ></i>
+                                        <span><strong>BendWood Chair</strong><p>Quantity: 5x$18</p></span>
+                                    </div>
+                                    <div class="flex justify-between items-center ml-6">
+                                        <span class="px-1"><strong>$89</strong></span>
+                                        <span class="delete">X</span>
+                                    </div>
+                                </li>
+
+                                <li class="flex justify-between items-center p-1">
+                                    <div class="flex justify-between items-center mr-6">
+                                        <i class='bx bx-box text-4xl p-2 rounded-full bg-indigo-200 text-indigo-900 m-1' ></i>
+                                        <span><strong>Borosil Paper Cup</strong><p>Quantity: 3x$250</p></span>
+                                    </div>
+                                    <div class="flex justify-between items-center ml-6">
+                                        <span class="px-1"><strong>$750</strong></span>
+                                        <span class="delete">X</span>
+                                    </div>
+                                </li>
+
+                                <li class="flex justify-between items-center p-1">
+                                    <div class="flex justify-between items-center mr-6">
+                                        <i class='bx bxs-t-shirt text-4xl p-2 rounded-full bg-indigo-200 text-indigo-900 m-1' ></i>
+                                        <span><strong>Gray Style T-Shirts</strong><p>Quantity: 1x$1250</p></span>
+                                    </div>
+                                    <div class="flex justify-between items-center ml-6">
+                                        <span class="px-1"><strong>$1250</strong></span>
+                                        <span class="delete">X</span>
+                                    </div>
+                                </li>
+
+                                <li class="flex justify-between items-center p-1">
+                                    <div class="flex justify-between items-center mr-6">
+                                        <i class='bx bx-headphone text-4xl p-2 rounded-full bg-indigo-200 text-indigo-900 m-1' ></i>
+                                        <span><strong>High Quality Headset</strong><p>Quantity: 2x$495</p></span>
+                                    </div>
+                                    <div class="flex justify-between items-center ml-6">
+                                        <span class="px-1"><strong>$990</strong></span>
+                                        <span class="delete">X</span>
+                                    </div>
+                                </li>  
+                            </ul>
+
+                            <div class="w-full pt-6 p-1">
+                                <div class="flex justify-between">
+                                    <span>Total</span>
+                                    <span class="mx-3"><strong>$3399.00</strong></span>
+                                </div>
+                                <div>
+                                    <button class="w-full bg-green-500 text-white font-bold text-2xl rounded-lg">Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <!-- Ends here -->
+                    
+                    <!-- Focus icon for for full screen -->
+                    <i class='text-indigo-900 text-1xl mx-1 1ar-icons md:mx-3 md:text-3xl bg-gray-200 rounded-full my-3 my-0 p-2 md:p-1 md:m-1 bx bxs-color sticky-icons'></i>
+                    <div class="fixedDiv"></div>
+                    
+                    <!-- Dark and light mood toggle -->
+                    <i class='text-indigo-900 text-1xl mx-1 1ar-icons md:mx-3 md:text-3xl bg-gray-200 rounded-full my-3 my-0 p-2 md:p-1 md:m-1 bx bx-moon sticky-icons'></i>
+                    <div class="fixedDiv"></div>
+                    
+                    <!-- Notification icon -->
+                    <i class='text-indigo-900 text-1xl mx-1 1ar-icons md:mx-3 md:text-3xl bg-gray-200 rounded-full my-3 my-0 p-2 md:p-1 md:m-1 bx bx-bell sticky-icons relative'><span class="rounded-full top-0 right-0 absolute p-1 font-bold text-white childNode">3</span></i>
+                     <!-- Corresponding div -->
+                     <div class="w-full right-0 md:w-1/2 max-h-80 top-20 fixed h-auto lg:ml-32 bg-blue-100 rounded-lg lg:w-auto fixedDiv right-20 mr-6 hidden">
+                        <div class="bg-indigo-900 h-10 p-2 flex justify-between w-auto items-center">
+                            <h3 class="w-auto mr-6 text-white text-2xl font-bold ">Notifications</h3>
+                            <span class="bg-indigo-200 text-indigo-900 w-auto h-6 px-3 rounded-lg">4 New</span>
+                        </div>
+
+                        <div class="bg-indigo-900 h-10 flex w-auto relative">
+                            <p class="w-auto h-3 mx-6 text-white text-1xl font-medium py-4 ">All(4)</p>
+                            <ul class="w-full mt-10 overflow-y-scroll h-64 absolute top-20 py-3 bg-white">
+                                <li class="flex w-full justify-between items-center p-1 bg-white">
+                                    <i class=' text-2xl font-thin text-blue-300 bx bxs-cog'></i>
+                                    <div>
+                                        <h1>Your Elite author Graphic Optimization <span class="text-indigo-900">Reward</span> is ready!</h1>
+                                        <p class="opacity-0.5"><i class='bx bx-time-five'></i>Just 30 sec Ago</p>
+                                    </div>
+                                    <input type="checkbox" checked>
+                                </li>
+
+                                <li class="flex mt-6 w-full justify-between items-center p-1 bg-white">
+                                    <i class=' text-5xl font-bold text-blue-300 bx bx-user-circle'></i>
+                                    <div>
+                                        <p><strong>Success Davids</strong> <br /> Answered to your commend on the flow cast graph<i class='bx bxs-bell text-yellow-500' ></i></p>
+                                        <p class="opacity-0.5"><i class='bx bx-time-five'></i>48 mins Ago</p>
+                                    </div>
+                                    <input type="checkbox">
+                                </li>
+
+                                <li class="flex mt-6 w-full justify-between items-center p-1 bg-white">
+                                    <i class=' text-2xl text-blue-300 bx bx-message-error'></i>
+                                    <div>
+                                        <p>You have received <strong class="text-orange-500">20</strong> new Notifications in you conversation</p>
+                                        <p class="opacity-0.5"><i class='bx bx-time-five'></i>2 hrs ago</p>
+                                    </div>
+                                    <input type="checkbox">
+                                </li>
+
+                                <li class="flex mt-6 w-full justify-between items-center p-1 bg-white">
+                                    <i class=' text-5xl font-bold text-blue-300 bx bx-user-circle'></i>
+                                    <div>
+                                        <p><strong>Dr Ahmed</strong> <br /> We talked about a project on linkIn<i class='bx bxs-bell text-yellow-500' ></i></p>
+                                        <p class="opacity-0.5"><i class='bx bx-time-five'></i>4 hrs Ago</p>
+                                    </div>
+                                    <input type="checkbox">
+                                </li>
+                               
+
+                                <div class="flex justify-center items-center">
+                                    <button class="w-auto font-bold h-1/2 p-1 bg-indigo-900 font-thin text-white rounded-lg">View all Notifications</button>
+                                </div>
+                            </ul>
+
+                            <!-- messages tab under notifications -->
+                            <p class="w-auto h-3 mx-6 text-white text-1xl font-medium py-4">Messages</p>
+                            <!-- Corresponding div -->
+                            <ul class="w-full mt-10 overflow-y-scroll h-64 absolute top-20 py-3 bg-white">
+
+                                <li class="flex mt-6 w-full justify-between items-center p-1 bg-white">
+                                    <i class=' text-5xl font-bold text-blue-300 bx bx-user-circle'></i>
+                                    <div>
+                                        <p><strong>Success Davids</strong> <br /> Answered to your commend on the flow cast graph<i class='bx bxs-bell text-yellow-500' ></i></p>
+                                        <p class="opacity-0.5"><i class='bx bx-time-five'></i>48 mins Ago</p>
+                                    </div>
+                                    <input type="checkbox">
+                                </li>
+
+                                <li class="flex mt-6 w-full justify-between items-center p-1 bg-white">
+                                    <i class=' text-5xl font-bold text-blue-300 bx bx-user-circle'></i>
+                                    <div>
+                                        <p><strong>Dr Ahmed</strong> <br /> We talked about a project on linkIn<i class='bx bxs-bell text-yellow-500' ></i></p>
+                                        <p class="opacity-0.5"><i class='bx bx-time-five'></i>4 hrs Ago</p>
+                                    </div>
+                                    <input type="checkbox">
+                                </li>
+                               
+
+                                <div class="flex justify-center items-center">
+                                    <button class="w-auto font-bold h-1/2 p-1 bg-indigo-900 font-thin text-white rounded-lg">View all Messages</button>
+                                </div>
+                            </ul>
+
+                            <!-- Alerts under notifications tab -->
+                            <p class="w-auto h-3 mx-6 text-white text-1xl font-medium py-4">Alerts</p>
+                            <!-- Corresponding div -->
+                            <ul class="w-full mt-10 overflow-y-scroll h-64 absolute top-20 bg-white hidden">
+
+                                <li class="bg-white  flex flex-col justify-center p-6">
+                                    <ul class="flex justify-center flex-col">
+                                    <p class="flex justify-center flex-col"> 
+                                        <em class="w-full"> You have no Notifications</em> <br>
+                                        <li class='bx bx-bell text-6xl text-indigo-900 w-full'></li>
+                                    </p>
+                                </ul>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    
+                    </div>
+                    <!-- Ends here -->
+                </div>
+
+                <!-- div for profile picture and others -->
+            <div class="sticky-icons md:flex justify-between items-center w-auto  md:bg-gray-400 relative p-3">
+                <i class='bx bxs-user-circle text-5xl'></i>
+                <div class="flex flex-col m-0 absolute bg-white fixedDiv w-full p-3 left-0 shadow-md">
+                    <p class="text-white bg-indigo-900 text-center">Welcome<strong> Florish</strong></p> 
+                    <ul class="bg-white p-3">
+                         <li class="m-1 p-1 rounded-lg w-full">Profile</li>
+                         <li class="m-1 p-1 rounded-lg w-full">Messages</li>
+                         <li class="m-1 p-1 rounded-lg w-full">Taskboard</li>
+                         <li class="m-1 p-1 rounded-lg shadow w-full">Help</li>
+                    </ul>
+                    <ul class="bg-white p-3">
+                         <li class="m-1 p-1 rounded-lg w-full">Balance: $5559.00</li>
+                         <li class="m-1 p-1 rounded-lg w-full flex justify-between">Setting <span class="bg-green-200">New</span></li>
+                         <li class="m-1 p-1 rounded-lg w-full">Lockscreen</li>
+                         <li class="m-1 p-1 rounded-lg w-full">Disconnets</li>
+                    </ul>
+                 </div>
+
+                <div class="hidden md:block lg:block md:text-center flex flex-col"> 
+                        <p><strong>I B Florish</strong><br /><span>Founder</span></p>
+                </div>
+                
+
+            </div>
+
+            </div>
+        </div>
+
+                <!-- Tab title bar begins here -->
+        <div class="w-full px-6 shadow-md p-1 flex justify-between items-center">
+            <div class="w-auto"> 
+                <span class=" font-bold">ANALYTIC</span>
+            </div> 
+            <div class=" w-auto flex justify-between mx-1">
+                <span>Dashboard</span> 
+                <span><i class='bx bxs-chevron-right'></i></span> 
+                <span>Analytic</span>
+            </div>
+        </div>
+            <!-- Tab title bar ends here -->
+
+            <!-- Fixed setting icon -->
+            <div class=" fixed p-1" >
+                <a href="#" class="">
+                    <i class='mt-64 fixed text-3xl bg-indigo-900 p-1 shadow-md  text-white rounded-full bx bx-cog'></i>
+                </a>
+            </div>
+
+<!-- First card for Account Upgrade begins here-->
+<div class="md:m-10 flex flex-col m-3 h-80 shadow rounded-lg">
+    <div class="w-full  p-3 bg-red-200 rounded-t-lg flex justify-between">
+        <p class="text-1xl">
+            <i class='bx bx-message-error'></i>
+            Your free trial expires in <strong>17</strong>  days
+        </p>
+        <div>
+            <a href="#"  class="text-orange-500"><strong><u>Upgrade</strong></u></a>
+        </div>
+    </div>
+
+        <div class="p-6 block md:flex  justify-between items-center">
+            <p class="text-orange-900">Upgrade your plan from a <strong>Free trial,</strong>  to ‘Premium Plan’ <i class='bx bx-right-arrow-alt'> </i> <br />
+
+                <button class="md:w-36 bg-green-700 rounded-lg text-white text-1xl text-center h-6 px-1 md:my-3 md:p-6 md:h-6 md:h-10">
+                    Upgrade Account
+                </button>
+            </p><br />
+            <p class="ml-16"> <img src="images/user-illustarator-2.png" class="user-illustarator h-32 block " alt="user-illustarator-2"></p>
+            
+        </div>
+</div>
+<!-- First card for Account Upgrad ends here-->
+
+<!-- Four set of cards -->
+<div class="m-10 w-auto block md:flex md:flex-wrap justify-between">
+    <div class=" w-auto md:w-1/2  h-40 my-3 mx-0 shadow rounded-lg flex justify-between box-border p-4">
+        <span> 
+            <div class="">User </div>
+            <div class=""><strong class="text-3xl"> 28.05K</strong> </div>
+            <div class=""> <em> 16.24 %</em>vs. previous month</div>
+        </span>
+
+        <span> 
+            <i class='bx bx-group text-5xl bg-teal-200 p-1 rounded-full'></i>
+        </span>
+    </div>
+
+    <div class=" w-auto md:w-1/2  h-40 my-3 mx-0  shadow rounded-lg flex justify-between box-border p-4">
+        <span> 
+            <div class="">Session</div>
+            <div class=""><strong class="text-3xl">97.66K</strong> </div>
+            <div class=""><em> 3.96%</em>vs. previous month</div>
+        </span>
+
+        <span> 
+            <i class='bx bx-line-chart text-5xl bg-teal-200 p-1 rounded-full'></i>
+        </span>
+    </div>
+
+    <div class=" w-auto-32 md:w-1/2  h-40 my-3 mx-0  shadow rounded-lg flex justify-between box-border p-4 hover:bg-green-100 hover:shadow ">
+        <span> 
+            <div class="">Avg. Visit Duration</div>
+            <div class=""><strong class="text-3xl">3m 40 sec</strong> </div>
+            <div class=""> <em> 16.24 %</em>vs. previous month</div>
+        </span>
+
+        <span> 
+            <i class='bx bx-pie-chart-alt text-5xl bg-teal-200 p-1 rounded-full'></i>
+        </span>
+    </div>
+
+    <div class=" w-auto-32 md:w-1/2  h-40 my-3 mx-0  shadow rounded-lg flex justify-between box-border p-4">
+        <span> 
+            <div class="">Bounce Rate</div>
+            <div class=""><strong class="text-3xl"> 33.48%</strong> </div>
+            <div class=""> <em> 16.24 %</em>vs. previous month</div>
+        </span>
+
+        <span> 
+            <i class='bx bx-link-external  text-5xl bg-teal-200 p-1 rounded-full'></i>
+        </span>
+    </div>
+</div>
+<!-- End of the four set cards -->
+
+
+        <!-- THE FOUR MIGHTY DIVS START HERE -->
+        <div class="m-3 md:m-6 w-auto block lg:flex lg:m-0.5">
+            
+            <!-- mighty DIV one -->
+            <div class=" h-64 w-full my-3 bg-blue-100   shadow rounded-lg lg:m-3">
+                <div class="w-full  px-3 bg-indigo-200 rounded-t-lg flex justify-between  items-center">
+                        <h1>LIVE USER BY COUNTRY</h1>
+
+                        <div class="p-6 flex  justify-between items-center">
+                                <button class="bg-indigo-400 p-1 rounded-lg m-1">Export Report</button>
+                        </div>
+                </div>
+                    <!-- 
+                        Big space in the div
+
+
+
+                    -->
+
+            </div>
+
+<!-- Mighty DIV three -->
+            <div class=" h-64 w-full my-3 bg-indigo-100 shadow rounded-lg lg:m-3">
+                <div class="w-full  p-3 bg-indigo-400 rounded-t-lg flex justify-between items-center">
+                    <h1>Session by Countries</h1>
+
+                    <div class="px-6 flex  justify-between items-center">
+                        <button class="bg-indigo-400 p-1 rounded-lg m-1">All</button> 
+                        <button class="bg-indigo-400 p-1 rounded-lg m-1">IM</button> 
+                        <button class="bg-indigo-400 p-1 rounded-lg m-1">6M</button> 
+                    </div>
+                </div>
+                    <!-- 
+                        Big space in the div
+                    -->
+            </div>
+        </div>
+
+
+<!-- mighty Div three -->
+    <div class="m-3 h-auto md:m-6  w-auto block lg:flex">
+        <div class="h-64 w-full my-3 bg-blue-100  shadow rounded-lg lg:m-3">
+                    <div class="w-full  px-3 bg-indigo-200 rounded-t-lg flex justify-between  items-center">
+                            <h1>LIVE USER BY COUNTRY</h1>
+
+                            <div class="p-6 flex  justify-between items-center">
+                                <button class="bg-indigo-400 p-1 rounded-lg m-1">Export Report</button>
+                            </div>
+                    </div>
+                        <!-- 
+                            Big space in the div
+
+                    -->
+
+        </div>
+
+<!-- Mighty DIV four -->
+        <div class="h-64 w-full my-3 bg-indigo-100   shadow rounded-lg lg:m-3">
+                    <div class="w-full h-60 p-3 bg-indigo-400 rounded-t-lg flex justify-between items-center">
+                        <h1>Session by Countries</h1>
+
+                        <div class="px-6 flex  justify-between items-center">
+                            <button class="bg-indigo-200 p-1 rounded-lg m-1">All</button> 
+                            <button class="bg-indigo-200 p-1 rounded-lg m-1">IM</button> 
+                            <button class="bg-indigo-200 p-1 rounded-lg m-1">6M</button> 
+                        </div>
+                    </div>
+                    <!-- 
+                        Big space in the div
+                    -->
+        </div>
+    </div>
+    <!-- THE FOUR MIGHTY DIVS ENDS HERE -->
+
+        <!-- Last three Div Section -->
+    <div class="block md:m-3 lg:flex lg:items-center md:p-3 lg:justify-between lg:m-3 ">
+        <!-- first Div Section -->
+        <div class="h-48 w-auto bg-blue-100   shadow rounded-lg md:m-6">
+
+            <div class="m-1 h-48 w-auto bg-blue-100   shadow rounded-lg">
+                <div class="w-full h-60 p-3 bg-blue-200 rounded-t-lg flex justify-between items-center">
+                    <h1>USER BY DEVICE</h1>
+
+                    <div class="px-6 flex  justify-between items-center">
+                        <select name="date" id="">
+                            <option value="Day">Days</option>
+                            <option value="Last Week">Last Week</option>
+                            <option value="Last Month">Last Month</option>
+                            <option value="Current Month">Current Year</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Second Div Section -->
+        <div class="h-48 w-auto bg-blue-100   shadow rounded-lg md:m-6">
+                <div class="w-full  px-3 bg-blue-200 rounded-t-lg flex justify-between  items-center">
+                        <h1>TOP REFERAL PAGES</h1>
+
+                        <div class="p-6 flex  justify-between items-center">
+                            <button class="bg-blue-300 p-1 rounded-lg m-1">Export Report</button>
+                        </div>
+                </div>
+
+        </div>
+
+
+<!-- Third div Section -->
+    <div class="h-48 w-auto bg-blue-100   shadow rounded-lg md:m-6">
+        <div class="w-full h-60 p-3 bg-blue-200 rounded-t-lg flex justify-between items-center">
+            <h1>TOP PAGES</h1>
+
+            <div class="px-6 flex  justify-between items-center">
+                <select name="date" id="">
+                    <option value="Day">Days</option>
+                    <option value="Last Week">Last Week</option>
+                    <option value="Last Month">Last Month</option>
+                    <option value="Current Month">Current Year</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+    <!-- Last three Div Section ends here -->
+
+    <!-- Footer begins Here! -->
+    <div class="w-auto flex relative justify-between items-center p-6 m-1 box-border">
+        <p>
+            2022 <i class='bx bx-copyright'></i>STechMax
+        </p>
+        <p class="invisible md:visible">
+            Design and Developed by <strong> STechMax </strong> 
+        </p>
+        
+    </div>
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script src="application.js">
+
+</script>
+    </body>
